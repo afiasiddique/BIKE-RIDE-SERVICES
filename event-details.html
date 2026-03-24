@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--<< Header Area >>-->
+     
+<head>
+        <!-- ========== Meta Tags ========== -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Gramentheme">
+        <meta name="description" content="Xriders - Riders & Sports Club HTML Template">
+        <!-- ======== Page title ============ -->
+        <title> Riders & Sports Club HTML Template</title>
+        <!--<< Favcion >>-->
+        <link rel="shortcut icon" href="assets/img/favicon.svg">
+        <!--<< Bootstrap min.css >>-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--<< All Min Css >>-->
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <!--<< Animate.css >>-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!--<< Magnific Popup.css >>-->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!--<< MeanMenu.css >>-->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!--<< Swiper Bundle.css >>-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!--<< Splitting.css >>-->
+        <link rel="stylesheet" href="assets/css/splitting.css">
+        <!--<< Nice Select.css >>-->
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <!-- box layout css -->
+        <link rel="stylesheet" href="assets/css/rtl.css">
+        <!-- box layout css -->
+        <link rel="stylesheet" href="assets/css/box-layout.css">
+        <!--<< Icomon.css >>-->
+        <link rel="stylesheet" href="assets/css/icomon.css">
+        <!--<< Main.css >>-->
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+
+        <div class="page-wrapper">
+             <!-- Preloader Start -->
+       <div id="preloader">
+        <svg class="bike" viewBox="0 0 48 30" width="48px" height="30px">
+        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+            <g transform="translate(9.5,19)">
+            <circle class="bike__tire" r="9" stroke-dasharray="56.549 56.549" />
+            <g class="bike__spokes-spin" stroke-dasharray="31.416 31.416" stroke-dashoffset="-23.562">
+                <circle class="bike__spokes" r="5" />
+                <circle class="bike__spokes" r="5" transform="rotate(180,0,0)" />
+            </g>
+            </g>
+            <g transform="translate(24,19)">
+            <g class="bike__pedals-spin" stroke-dasharray="25.133 25.133" stroke-dashoffset="-21.991" transform="rotate(67.5,0,0)">
+                <circle class="bike__pedals" r="4" />
+                <circle class="bike__pedals" r="4" transform="rotate(180,0,0)" />
+            </g>
+            </g>
+            <g transform="translate(38.5,19)">
+            <circle class="bike__tire" r="9" stroke-dasharray="56.549 56.549" />
+            <g class="bike__spokes-spin" stroke-dasharray="31.416 31.416" stroke-dashoffset="-23.562">
+                <circle class="bike__spokes" r="5" />
+                <circle class="bike__spokes" r="5" transform="rotate(180,0,0)" />
+            </g>
+            </g>
+            <polyline class="bike__seat" points="14 3,18 3" stroke-dasharray="5 5" />
+            <polyline class="bike__body" points="16 3,24 19,9.5 19,18 8,34 7,24 19" stroke-dasharray="79 79" />
+            <path class="bike__handlebars" d="m30,2h6s1,0,1,1-1,1-1,1" stroke-dasharray="10 10" />
+            <polyline class="bike__front" points="32.5 2,38.5 19" stroke-dasharray="19 19" />
+        </g>
+        </svg>
+    </div>
+
+    <!-- GT Back To Top Start -->
+    <button id="gt-back-top" class="gt-back-to-top show">
+       <img src="assets/img/icon/up-arrow.svg" alt="">
+    </button>
+
+    <!-- GT MouseCursor Start -->
+    <div class="mouseCursor cursor-outer"></div>
+    <div class="mouseCursor cursor-inner"></div>
+
+    <!-- Offcanvas Area Start -->
+    <div class="fix-area">
+        <div class="offcanvas__info">
+            <div class="offcanvas__wrapper">
+                <div class="offcanvas__content">
+                    <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                        <div class="offcanvas__logo">
+                            <a href="index-2.html">
+                                <img src="assets/img/logo/black-logo.svg" alt="logo-img">
+                            </a>
+                        </div>
+                        <div class="offcanvas__close">
+                            <button>
+                            <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <p class="text d-none d-xl-block">
+                        Nullam dignissim, ante scelerisque the  is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
+                    </p>
+                    <div class="mobile-menu fix mb-3"></div>
+                    <div class="offcanvas__contact">
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon">
+                                    <i class="fal fa-map-marker-alt"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-envelope"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="mailto:info@example.com"><span class="mailto:info@example.com">info@example.com</span></a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-clock"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="far fa-phone"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="tel:+11002345909">+11002345909</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="header-button mt-4">
+                            
+                        </div>
+                        <a href="event-details.html" class="gt-theme-btn">
+                            <span class="gt-icon-btn"><i class="icon-icon-1"></i></span>
+                            <span class="gt-text-btn">
+                                <span class="gt-text-2">UPCOMMING EVENT</span>
+                            </span>
+                        </a>
+                        <div class="social-icon d-flex align-items-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas__overlay"></div>
+
+    <!-- Header Section Start -->
+    <header id="header-sticky" class="header-1">
+        <div class="container-fluid">
+            <div class="mega-menu-wrapper">
+                <div class="header-main">
+                    <div class="logo">
+                        <a href="index-2.html" class="header-logo">
+                            <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                        </a>
+                        <a href="index-2.html" class="header-logo-2">
+                            <img src="assets/img/logo/black-logo.svg" alt="logo-img">
+                        </a>
+                    </div>
+                    <div class="mean__menu-wrapper">
+                        <div class="main-menu">
+                            <nav id="mobile-menu">
+                                        <ul>
+                                            <li class="has-dropdown active menu-thumb">
+                                                <a href="index-2.html">
+                                                    Home 
+                                                </a>
+                                                <ul class="submenu has-homemenu">
+                                                    <li>
+                                                        <div class="homemenu-items">
+                                                            <div class="homemenu">
+                                                                <div class="homemenu-thumb">
+                                                                    <img src="assets/img/header/home-1.jpg" alt="img">
+                                                                    <div class="demo-button">
+                                                                        <a href="index-2.html" class="gt-theme-btn">
+                                                                            <span class="gt-icon-btn"><i class="icon-icon-1"></i></span>
+                                                                            <span class="gt-text-btn">
+                                                                                <span class="gt-text-2"> Multi Page</span>
+                                                                            </span>
+                                                                        </a>
+                                                                        <a href="index-one-page.html" class="gt-theme-btn">
+                                                                            <span class="gt-icon-btn"><i class="icon-icon-1"></i></span>
+                                                                            <span class="gt-text-btn">
+                                                                                <span class="gt-text-2">One Page</span>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="homemenu-content text-center">
+                                                                    <h4 class="homemenu-title">
+                                                                        Motor Club
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                            <div class="homemenu">
+                                                                <div class="homemenu-thumb mb-15">
+                                                                    <img src="assets/img/header/home-2.jpg" alt="img">
+                                                                    <div class="demo-button">
+                                                                        <a href="index-3.html" class="gt-theme-btn">
+                                                                            <span class="gt-icon-btn"><i class="icon-icon-1"></i></span>
+                                                                            <span class="gt-text-btn">
+                                                                                <span class="gt-text-2"> Multi Page</span>
+                                                                            </span>
+                                                                        </a>
+                                                                        <a href="index-two-page.html" class="gt-theme-btn">
+                                                                            <span class="gt-icon-btn"><i class="icon-icon-1"></i></span>
+                                                                            <span class="gt-text-btn">
+                                                                                <span class="gt-text-2">One Page</span>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="homemenu-content text-center">
+                                                                    <h4 class="homemenu-title">
+                                                                        Bike Club
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                            <div class="homemenu">
+                                                                <div class="homemenu-thumb mb-15">
+                                                                    <img src="assets/img/header/home-3.jpg" alt="img">
+                                                                    <div class="demo-button">
+                                                                        <a href="index-4.html" class="gt-theme-btn">
+                                                                            <span class="gt-icon-btn"><i class="icon-icon-1"></i></span>
+                                                                            <span class="gt-text-btn">
+                                                                                <span class="gt-text-2"> Multi Page</span>
+                                                                            </span>
+                                                                        </a>
+                                                                        <a href="index-three-page.html" class="gt-theme-btn">
+                                                                            <span class="gt-icon-btn"><i class="icon-icon-1"></i></span>
+                                                                            <span class="gt-text-btn">
+                                                                                <span class="gt-text-2">One Page</span>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="homemenu-content text-center">
+                                                                    <h4 class="homemenu-title">
+                                                                        Racing Car Club
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                            <div class="homemenu">
+                                                                <div class="homemenu-thumb mb-15">
+                                                                    <img src="assets/img/header/home-4.jpg" alt="img">
+                                                                    <div class="demo-button">
+                                                                        <a href="index-5.html" class="gt-theme-btn">
+                                                                            <span class="gt-icon-btn"><i class="icon-icon-1"></i></span>
+                                                                            <span class="gt-text-btn">
+                                                                                <span class="gt-text-2"> Multi Page</span>
+                                                                            </span>
+                                                                        </a>
+                                                                        <a href="index-four-page.html" class="gt-theme-btn">
+                                                                            <span class="gt-icon-btn"><i class="icon-icon-1"></i></span>
+                                                                            <span class="gt-text-btn">
+                                                                                <span class="gt-text-2">One Page</span>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="homemenu-content text-center">
+                                                                    <h4 class="homemenu-title">
+                                                                       Horse Club
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                            <div class="homemenu">
+                                                                <div class="homemenu-thumb mb-15">
+                                                                    <img src="assets/img/header/home-5.jpg" alt="img">
+                                                                    <div class="demo-button">
+                                                                        <a href="index-6.html" class="gt-theme-btn">
+                                                                            <span class="gt-icon-btn"><i class="icon-icon-1"></i></span>
+                                                                            <span class="gt-text-btn">
+                                                                                <span class="gt-text-2"> Multi Page</span>
+                                                                            </span>
+                                                                        </a>
+                                                                        <a href="index-five-page.html" class="gt-theme-btn">
+                                                                            <span class="gt-icon-btn"><i class="icon-icon-1"></i></span>
+                                                                            <span class="gt-text-btn">
+                                                                                <span class="gt-text-2">One Page</span>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="homemenu-content text-center">
+                                                                    <h4 class="homemenu-title">
+                                                                      Boat Club
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="has-dropdown active d-xl-none">
+                                                <a href="index-2.html" class="border-none">
+                                                Home
+                                                </a>
+                                                <ul class="submenu">
+                                                    <li><a href="index-2.html">Motor Club</a></li>
+                                                    <li><a href="index-3.html">Bike Club</a></li>
+                                                    <li><a href="index-4.html">Racing Car Club</a></li>
+                                                    <li><a href="index-5.html">Horse Club</a></li>
+                                                    <li><a href="index-6.html">Boat Club</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="has-dropdown">
+                                                <a href="news.html">
+                                                    Pages
+                                                </a>
+                                                <ul class="submenu">
+                                                    <li><a href="about.html">About Us</a></li>
+                                                    <li class="has-dropdown">
+                                                        <a href="team-details.html">
+                                                            Our Team
+                                                            <i class="fas fa-angle-right"></i>
+                                                        </a>
+                                                        <ul class="submenu">
+                                                            <li><a href="team.html">Our Team</a></li>
+                                                            <li><a href="team-details.html">Team Details</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="has-dropdown">
+                                                        <a href="shop-details.html">
+                                                           Shop Page
+                                                            <i class="fas fa-angle-right"></i>
+                                                        </a>
+                                                        <ul class="submenu">
+                                                            <li><a href="shop.html">Shop Grid</a></li>
+                                                            <li><a href="shop-list.html">Shop List</a></li>
+                                                            <li><a href="shop-cart.html">Shop Cart</a></li>
+                                                            <li><a href="shop-details.html">Shop Details</a></li>
+                                                            <li><a href="checkout.html">Checkout</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="pricing.html">Our Pricing</a></li>
+                                                    <li><a href="coming-soon.html">Coming Soon</a></li>
+                                                    <li><a href="404.html">404 Page</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="service-details.html">
+                                                    Services
+                                                </a>
+                                                <ul class="submenu">
+                                                    <li><a href="service.html">Service Page</a></li>
+                                                    <li><a href="service-details.html">Service Details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="event-details.html">
+                                                    Event
+                                                </a>
+                                                <ul class="submenu">
+                                                    <li><a href="event.html">Event Page</a></li>
+                                                    <li><a href="event-details.html">Event Details</a></li>
+                                                </ul>
+                                            </li>
+                                           <li>
+                                                <a href="news-details.html">
+                                                    Blog
+                                                </a>
+                                                <ul class="submenu">
+                                                    <li><a href="news-grid.html">Blog Grid</a></li>
+                                                    <li><a href="news.html">Blog Standard</a></li>
+                                                    <li><a href="news-details.html">Blog Details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="contact.html">Contact Us</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                        </div>
+                    </div>
+                    <div class="header-right d-flex justify-content-end align-items-center">
+                        <div class="header-right-icon">
+                            <a href="shop-cart.html" class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" class="main-header__search search-toggler">
+                                <i class="fa-regular fa-magnifying-glass"></i>
+                            </a>
+                        </div>
+                        <a href="event-details.html" class="gt-theme-btn">
+                            <span class="gt-icon-btn gt-bg-theme-color"><i class="icon-icon-1"></i></span>
+                            <span class="gt-text-btn">
+                                <span class="gt-text-2">UPCOMMING EVENT</span>
+                            </span>
+                        </a>
+                        <div class="header__hamburger d-xl-none my-auto">
+                            <div class="sidebar__toggle">
+                                <div class="header-bar">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- GT Search Start -->
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <div class="search-popup__content">
+            <form role="search" method="get" class="search-popup__form" action="#">
+                <input type="text" id="search" name="search" placeholder="Search Here...">
+                <button type="submit" aria-label="search submit" class="search-btn">
+                    <span><i class="fa-regular fa-magnifying-glass"></i></span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- GT Breadcrunb Section Start -->
+    <div class="gt-breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb-bg.jpg');">
+        <div class="gt-right-shape">
+            <img src="assets/img/breadcrumb-shape.jpg" alt="img">
+        </div>
+        <div class="container">
+            <div class="gt-page-heading">
+                <div class="gt-breadcrumb-sub-title">
+                    <h1 class="wow fadeInUp" data-wow-delay=".3s">Event Details</h1>
+                </div>
+                <ul class="gt-breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+                    <li>
+                        <a href="index-2.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </li>
+                    <li>
+                        Event Details
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- GT event-wrapper Section Start -->
+    <section class="gt-event-wrapper-section section-padding section fix">
+        <div class="container">
+            <div class="gt-event-wrapper">
+                <div class="gt-event-image">
+                    <img src="assets/img/inner-page/event-details/details-1.jpg" alt="img">
+                </div>
+                <div class="gt-event-content">
+                    <ul class="gt-list">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i> 
+                            Niagara Falls, Banff National Park
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-calendar-days"></i>
+                            11 March 2025
+                        </li>
+                    </ul>
+                    <h2>
+                        Mountain Adventure Ride
+                    </h2>
+                    <p>
+                        Join us for an epic Mountain Adventure Ride, where thrill meets breathtaking scenery! This ride is perfect for riders who love twisting mountain roads, scenic landscapes, and challenging terrains. Whether you're a seasoned adventurer or a first-time mountain rider, this event promises an unforgettable journey.
+                    </p>
+                    <div class="gt-social-icon">
+                        <span>Share With:</span>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="event-details-wrapper">
+                <div class="row g-4">
+                    <div class="col-lg-8 col-12">
+                        <div class="gt-event-details-content">
+                            <h3>
+                                Started this Event:
+                            </h3>
+                            <p>
+                                The Mountain Adventure Ride was created to unite passionate riders who crave the thrill of elevation, scenic trails, and the freedom of the open road. What began as a small group journey into the hills has now grown into one of our club’s most anticipated annual events. 
+                            </p>
+                            <p>
+                                Designed for those who live for adventure and ride with purpose, this event pushes boundaries while building lasting friendships among bikers who love the climb as much as the ride
+                            </p>
+                            <div class="gt-thumb">
+                                <img src="assets/img/inner-page/event-details/details-2.jpg" alt="img">
+                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                            <div class="gt-list-item-area">
+                                <div class="gt-list-item">
+                                    <h3>Event Highlights:</h3>
+                                    <ul class="gt-details-list">
+                                        <li>
+                                            <i class="icon-icon-3"></i>
+                                            Scenic mountain trails with epic views and thrilling elevations
+                                        </li>
+                                        <li>
+                                            <i class="icon-icon-3"></i>
+                                            Guided group ride led by experienced captains
+                                        </li>
+                                        <li>
+                                            <i class="icon-icon-3"></i>
+                                            Midway pit stop with snacks, drinks, and a mountain-side BBQ lunch
+                                        </li>
+                                        <li>
+                                            <i class="icon-icon-3"></i>
+                                            Photography team capturing unforgettable moments
+                                        </li>
+                                        <li>
+                                            <i class="icon-icon-3"></i>
+                                            Quick maintenance station for pre-ride checks
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="gt-list-item">
+                                    <h3>What to Bring:</h3>
+                                    <ul class="gt-details-list">
+                                        <li>
+                                            <i class="icon-icon-3"></i>
+                                            Full riding gear (helmet, gloves, jacket, boots)
+                                        </li>
+                                        <li>
+                                            <i class="icon-icon-3"></i>
+                                            Water, ID, and personal essentials
+                                        </li>
+                                        <li>
+                                            <i class="icon-icon-3"></i>
+                                            A well-serviced bike ready for mountain conditions
+                                        </li>
+                                        <li>
+                                            <i class="icon-icon-3"></i>
+                                            Adventure-ready attitude!
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <h3 class="text">Event Spaker:</h3>
+                            <p>
+                                We’re thrilled to welcome a seasoned rider, moto-influencer, and safety advocate, as our special guest speaker for the Mountain Adventure Ride
+                            </p>
+                            <div class="row g-4 mb-5">
+                                <div class="col-xl-4 col-lg-6 col-md-6">
+                                    <div class="gt-details-info-item">
+                                        <div class="gt-client-image">
+                                            <img src="assets/img/inner-page/event-details/client-1.png" alt="img">
+                                        </div>
+                                        <div class="gt-info-text">
+                                            <h4>Throttle John</h4>
+                                            <span>Riley Cross</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-6 col-md-6">
+                                    <div class="gt-details-info-item">
+                                        <div class="gt-client-image">
+                                            <img src="assets/img/inner-page/event-details/client-2.png" alt="img">
+                                        </div>
+                                        <div class="gt-info-text">
+                                            <h4>Leslie Alexander</h4>
+                                            <span>Professional Racers</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-6 col-md-6">
+                                    <div class="gt-details-info-item">
+                                        <div class="gt-client-image">
+                                            <img src="assets/img/inner-page/event-details/client-3.png" alt="img">
+                                        </div>
+                                        <div class="gt-info-text">
+                                            <h4>Alex Roy</h4>
+                                            <span>Performance Experts</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="text">Venue Direction:</h3>
+                            <p>
+                                Follow the signs from Ridgeway Valley to Alpine Base Camp. Clear markers and staff guides will assist you all the way to the event location
+                            </p>
+                            <div class="gt-map-items">
+                                <div class="googpemap">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.7619084840835!2d144.9618311901502!3d-37.81450084255415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3119cc820fdfc62e!2sEnvato!5e0!3m2!1sen!2sbd!4v1641984054261!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="gt-main-sideber">
+                            <div class="gt-event-sideber-widget">
+                                <div class="gt-widget-title">
+                                    <h3>Purchase Ticket</h3>
+                                </div>
+                                <div class="gt-event-box-item">
+                                    <h6>DEFAULT <span>( Unlimited tickets)</span></h6>
+                                    <div class="gt-box-item">
+                                        <div class="gt-item">
+                                            <span>Ticket Price :</span>
+                                            <p>09$</p>
+                                        </div>
+                                        <div class="gt-item">
+                                            <span>Quantity :</span>
+                                            <p class="qty">
+                                                <button class="qtyminus" aria-hidden="true">−</button>
+                                                <input type="number" name="qty" id="qty2" min="1" max="10" step="1" value="1">
+                                                <button class="qtyplus" aria-hidden="true">+</button>
+                                            </p>
+                                        </div>
+                                        <div class="gt-item">
+                                            <span>Sub Total :</span>
+                                            <p>18$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="gt-sideber-list gt-box">
+                                    <li>
+                                        <span>Total Quantity:</span>
+                                        02
+                                    </li>
+                                    <li>
+                                        <span>Organizer</span>
+                                        18$
+                                    </li>
+                                </ul>
+                                <div class="gt-purchase-button">
+                                    <button type="submit" class="gt-theme-btn">
+                                        <span class="gt-text-btn">
+                                            <span class="gt-text-2">PURCHASE TICKET</span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="gt-event-sideber-widget">
+                                <ul class="gt-sideber-list">
+                                    <li>
+                                        <span>Date</span>
+                                        : February 24, 2025
+                                    </li>
+                                    <li>
+                                        <span>Venue</span>
+                                        : Melbourne, Australia
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="gt-event-sideber-widget">
+                                <div class="gt-widget-title">
+                                    <h3>Short Details</h3>
+                                </div>
+                                <ul class="gt-sideber-list">
+                                    <li>
+                                        <span>Start Date</span>
+                                        : February 24, 2025
+                                    </li>
+                                    <li>
+                                        <span>Event Venue</span>
+                                        : Melbourne, Australia
+                                    </li>
+                                    <li>
+                                        <span>Organizer</span>
+                                        : Patel, Emily
+                                    </li>
+                                    <li>
+                                        <span>Category</span>
+                                        : Adventure Ride
+                                    </li>
+                                    <li>
+                                        <span>Phone</span>
+                                        : +1 (1234)- 567-800
+                                    </li>
+                                    <li>
+                                        <span>Location</span>
+                                        : New York City
+                                    </li>
+                                    <li>
+                                        <span>E-mail</span>
+                                        : info@gmail.com
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="gt-event-sideber-widget mb-0">
+                                <div class="gt-widget-title">
+                                    <h3>We're in the social</h3>
+                                </div>
+                                <div class="gt-social-icon d-flex align-items-center;">
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GT Instagram Section Start -->
+    <div class="gt-instagram-section fix section-bg">
+        <div class="swiper gt-instagram-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="gt-instagram-image">
+                        <img src="assets/img/home-1/instagram/instagram-01.jpg" alt="img">
+                        <a href="index-2.html" class="gt-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="gt-instagram-image">
+                        <img src="assets/img/home-1/instagram/instagram-02.jpg" alt="img">
+                        <a href="index-2.html" class="gt-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="gt-instagram-image">
+                        <img src="assets/img/home-1/instagram/instagram-03.jpg" alt="img">
+                        <a href="index-2.html" class="gt-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="gt-instagram-image">
+                        <img src="assets/img/home-1/instagram/instagram-04.jpg" alt="img">
+                        <a href="index-2.html" class="gt-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="gt-instagram-image">
+                        <img src="assets/img/home-1/instagram/instagram-05.jpg" alt="img">
+                        <a href="index-2.html" class="gt-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <!-- GT Footer Section Start -->
+        <footer class="gt-footer-section footer-bg">
+            <div class="gt-line-shape">
+                <img src="assets/img/home-1/footer/line-shape.png" alt="img">
+            </div>
+            <div class="gt-line-shape-2">
+                <img src="assets/img/home-1/footer/line-shape-2.png" alt="img">
+            </div>
+            <div class="gt-dot-shape">
+                <img src="assets/img/home-1/footer/dot-shape.png" alt="img">
+            </div>
+            <div class="container">
+                <div class="gt-footer-widget-wrapper">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-5 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="gt-footer-widget-items">
+                                <div class="gt-widget-head">
+                                    <a href="index-2.html" class="gt-footer-logo">
+                                        <img src="assets/img/logo/white-logo.svg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="gt-footer-content">
+                                    <p>
+                                        It is a long established fact that a reader will be distracted the road readable content of a page when looking at layout.  of a page when looking at layout.
+                                    </p>
+                                    <ul class="gt-contact-list">
+                                        <li>
+                                            <div class="icon">
+                                                <img src="assets/img/call.png" alt="img">
+                                                <span>Phone</span>
+                                            </div>
+                                            <a href="tel:0945424780">(094) 542 - 4780</a>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <img src="assets/img/location.png" alt="img">
+                                                <span>Location</span>
+                                            </div>
+                                            Toronto, Montreal, City
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="gt-footer-widget-items">
+                                <div class="gt-widget-head">
+                                    <h3>Useful Links</h3>
+                                </div>
+                                <ul class="gt-list-area">
+                                    <li>
+                                        <a href="about.html">
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="service.html">
+                                            Service
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="event.html">
+                                            Our Event
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="news.html">
+                                            Our Blog
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 ps-lg-3 col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="gt-footer-widget-items">
+                                <div class="gt-widget-head">
+                                    <h3>Join Our Club </h3>
+                                </div>
+                                <ul class="gt-list-area">
+                                    <li>
+                                        <a href="service-details.html">
+                                            Club History
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="service-details.html">
+                                            Mumbership Plan
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="service-details.html">
+                                            Quality & Safety Count
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="service-details.html">
+                                            Facts and Figures
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 ps-xxl-5 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
+                            <div class="gt-footer-widget-items">
+                                <div class="gt-widget-head">
+                                    <h3>Useful Links</h3>
+                                </div>
+                                <ul class="gt-list-area">
+                                    <li>
+                                        <a href="service-details.html">
+                                            Private Coaching
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="service-details.html">
+                                            Classic Motorcycle
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="service-details.html">
+                                            Strenuous Bikers
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="service-details.html">
+                                            Adventure Riding
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gt-footer-newsletter">
+                    <div class="gt-newsletter-content wow fadeInUp" data-wow-delay=".3s">
+                        <h3>Subscribe Newsletter</h3>
+                        <form action="#">
+                            <div class="form-clt">
+                                <input type="text" name="email" id="email" placeholder="Your Email Address">
+                                <button type="submit" class="gt-theme-btn">
+                                    <span class="gt-icon-btn"><i class="icon-icon-1"></i></span>
+                                    <span class="gt-text-btn">
+                                        <span class="gt-text-2">SUBSCRIBE NOW</span>
+                                    </span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="gt-social-icon d-flex align-items-center wow fadeInUp" data-wow-delay=".5s">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2025 <b>Xriders</b>. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+    <!-- ==== color switcher start ==== -->
+    <div class="color-palate">
+        <button class="color-trigger">
+            <i class="fa-solid fa-gear"></i>
+        </button>
+        <button class="close-color-trigger">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="color-palate-inner">
+            <a href="index-2.html" class="palate-logo">
+                <img src="assets/img/logo/black-logo.svg" alt="img">
+            </a>
+            <div class="various-color clearfix">
+                <h6>Multiple Colors</h6>
+                <div class="color-picker-panel">
+                    <label><input type="color" data-var="--gt-theme" value="#E63946"></label>
+                    <label><input type="color" data-var="--gt-theme" value="#246af4"></label>
+                    <label><input type="color" data-var="--gt-theme" value="#122f2a"></label>
+                    <label><input type="color" data-var="--gt-theme" value="#e092fd"></label>
+                </div>
+            </div>
+            <h6>RTL Version</h6>
+            <ul class="rtl-version option-box">
+                <li class="rtl">RTL Version</li>
+                <li>LTR Version</li>
+            </ul>
+            <h6>Boxed Version</h6>
+            <ul class="box-version option-box">
+                <li class="box">Boxed</li>
+                <li>Full width</li>
+            </ul>
+        </div>
+    </div>
+        </div>
+
+       
+        
+        <!--<< All JS Plugins >>-->
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <!--<< Viewport Js >>-->
+        <script src="assets/js/viewport.jquery.js"></script>
+        <!--<< Bootstrap Js >>-->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!--<< nice-selec Js >>-->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!--<< Waypoints Js >>-->
+        <script src="assets/js/jquery.waypoints.js"></script>
+        <!--<< Counterup Js >>-->
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <!--<< Swiper Slider Js >>-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <!--<< MeanMenu Js >>-->
+        <script src="assets/js/jquery.meanmenu.min.js"></script>
+        <!--<< Magnific Popup Js >>-->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!--<< Splitting Js >>-->
+        <script src="assets/js/splitting.js"></script>
+        <!--<< Wow Animation Js >>-->
+        <script src="assets/js/wow.min.js"></script>
+        <!--<< Main.js >>-->
+        <script src="assets/js/splitting-animation.js"></script>
+        <!--<< Main.js >>-->
+        <script src="assets/js/template-settings.js"></script>
+        <!--<< Template Setting.js >>-->
+        <script src="assets/js/main.js"></script>
+    </body>
+
+</html>
